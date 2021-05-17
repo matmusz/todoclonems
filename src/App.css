@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  height: 100%;
+}
+
+header {
+  background-color: aqua;
+  height: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  background-color: crimson;
+  display: flex;
+  height: 100vh;
+}
+
+section {
+  width: 25%;
+}
+
+.nav-side {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+
+}
+
+.btn {
+  width: auto;
+}
+
+.new-list {
+  width: 100%;
+}
+
+.new-list-input {
+  width: 75%;
+}
+
+.new-list-btn {
+  width: 20%;
+}
+
+.list-item:hover {
+  color: aqua;
+}
+
+main {
+  background-color: chocolate;
+  width: 75%;
+}
+
+
+
+
+
+/*Task*/
+
+.task-label {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.new-task-input{
+  color: antiquewhite;
+}
+
+.new-task-input-disable {
+  display: none;
+}
